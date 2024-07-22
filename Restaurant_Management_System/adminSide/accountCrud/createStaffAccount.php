@@ -21,8 +21,8 @@ $input_password = $password_err = $password = "";
 
 <div class="wrapper">
     <h1>Mlob Thaot's Restaurant</h1>
-    <h3>Create New Account!</h3>
-    <p>Please fill the Account Information Properly!</p>
+    <h3>Create New Account</h3>
+    <p>Please fill in Account Information Properly</p>
 
     <form method="POST" action="success_create_staff_Account.php" class="ht-600 w-50">
         
@@ -52,7 +52,7 @@ $input_password = $password_err = $password = "";
 
         <div class="form-group">
             <label for="phone_number" class="form-label">Phone Number:</label>
-            <input type="text" name="phone_number" placeholder="+855123456789" class="form-control <?php echo !$phone_numberErr ?: 'is-invalid'; ?>" id="phone_number" required value="<?php echo $phone_number; ?>"><br>
+            <input type="text" name="phone_number" placeholder="+855 123 456789" class="form-control <?php echo !$phone_numberErr ?: 'is-invalid'; ?>" id="phone_number" required value="<?php echo $phone_number; ?>"><br>
             <div id="validationServerFeedback" class="invalid-feedback">
                 Please provide a valid phone number.
             </div>
