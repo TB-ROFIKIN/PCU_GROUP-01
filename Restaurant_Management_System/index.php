@@ -49,7 +49,7 @@ if (file_exists('setup_completed.flag')) {
     }
 
     // Execute SQL statements from "restaurantDB.txt" file
-    executeSQLFromFile('restaurantDB.sql', $link);
+    executeSQLFromFile('restaurantDB.txt', $link);
 
     // Close the database connection
     $link->close();
