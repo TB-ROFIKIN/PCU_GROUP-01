@@ -2,4 +2,4 @@
 
 # Hello, I'm Nithh 👋
 
-I'm Nithh From PCU Group 1. This Repository will show y'all about some projects that we make with my teammates! 
+I'm Nithh From PCU Group 1. This Repository will show y'all about some projects that i do with my teammates! 
